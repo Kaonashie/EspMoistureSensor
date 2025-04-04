@@ -23,9 +23,9 @@ The EspMoistureSensor project combines hardware and software to create an effici
 
 ## Software Requirements
 
-- **Frontend App**: Built with [insert framework/language, e.g., React, Vue.js, or HTML/CSS/JS].
+- **Frontend App**: Built with Reactjs.
 - **ESP32 Firmware**: Custom code to read sensor data and send it over Wi-Fi (e.g., using Arduino IDE or PlatformIO).
-- **Backend (Optional)**: A server to aggregate data from ESP32 devices (e.g., Node.js, Flask) if implemented.
+- **Backend (Optional)**: A server to aggregate data from ESP32 devices Flask? if implemented.
 
 ## Installation
 
@@ -33,7 +33,7 @@ The EspMoistureSensor project combines hardware and software to create an effici
 1. Connect the soil moisture sensor to the ESP32:
    - VCC to 3.3V
    - GND to GND
-   - Signal pin to an analog input pin (e.g., GPIO 34)
+   - Signal pin to an analog input pin (e.g., GPIO 34). Use GPIO 15 for consistency.
 2. Power the ESP32 via USB or battery.
 3. Ensure the ESP32 is connected to your Wi-Fi network.
 
